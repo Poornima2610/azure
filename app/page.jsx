@@ -12,7 +12,7 @@ const page = () => {
 					<div className="absolute bg-primaryBlackColor w-[1.1vw] h-[1.1vw] rounded-full top-0 right-[2%] translate-y-[1.5vw]"></div>
 					<h1 className={ `${geist.className} text-primaryBlackColor font-semibold text-[13.9vw] leading-[1] px-[2.5vw] ` }>
 						AZURE<span className="font-extralight pl-[1vw]">HOMES</span>
-					</h1>	
+					</h1>
 				</div>
 				<div className="px-[2.5vw] pt-[.5vw]">
 					<p className={ `${geist.className} text-[.9vw] font-light text-secondaryBlackColor leading-[1] text-end` }>KOMPALLY, HYDERABAD</p>
@@ -37,35 +37,44 @@ const page = () => {
 			</section>
 
 			{/* Second Section */ }
-			<section className="bg-primaryBlackColor pr-[2.5vw] pl-[3vw]  flex pt-[6.5vw] pb-[8vw]">
+			<section className="bg-primaryBlackColor px-[2.5vw]   flex pt-[6.5vw] pb-[8vw]">
 				<div className="relative w-[33%]">
-					<Image src="/assets/images/home/second.png" priority={ true } width={ 0 } height={ 0 } sizes="100vw" className="w-[24vw] absolute left-[9%] top-[20%] " alt="vector" />
-					<div className="bg-[#FFFFFF] w-[.30vw] h-[.30vw] left-0 -translate-x-[.85vw] translate-y-[.65vw] top-0 rounded-full"></div>
-					<p className={ `${geist.className} font-light text-[1vw] text-[#FFFFFF]` }>Introduction</p>
-					
-					
+					<Image src="/assets/images/home/second.png" priority={ true } width={ 0 } height={ 0 } sizes="100vw" className="w-[24.5vw] absolute left-[9%] top-[20%] " alt="vector" />
+					<div className="bg-[#FFFFFF] w-[.30vw] h-[.30vw] left-0  translate-y-[.65vw] top-0 rounded-full"></div>
+					<p className={ `${geist.className} font-light text-[1vw] text-[#FFFFFF] ml-[1vw] ` }>Introduction</p>
+
+
 				</div>
 				<div className="w-[67%] ">
 					<div className="border-b border-[#F9FAFC] pb-[2.5vw]">
-						<p className={ `${geist.className} font-light text-[2.70vw] text-white leading-[1.1] mr-[19vw] -tracking-[.1vw]` }>Azure Homes helps bridge the gap between nature and modern living. Residents can have an interactive living experience where they can get closer to nature’s delight while still having access to advanced amenities.</p>
+						<p className={ `${geist.className} font-light text-[2.70vw] text-white leading-[1.1] mr-[20vw] -tracking-[.1vw]` }>Azure Homes helps bridge the gap between nature and modern living. Residents can have an interactive living experience where they can get closer to nature’s delight while still having access to advanced amenities.</p>
 					</div>
 
 					<div className="flex text-white justify-between pt-[2.5vw] items-end  ">
 						<p className={ `${geist.className}  text-[.9vw] w-[46%] leading-[1.4] -tracking-[.02vw] ` }>The serenity of the lush greenery beyond permeates every space within your home, a seamless flow of tranquillity that floats on a forest breeze. Masterfully defined living spaces are inter-connected yet cosseting at the same time.</p>
-						<Link href="#" className={`${geist.className} text-[.9vw] `}> MORE ABOUT US</Link>
+						<Link href="#" className={ `${geist.className} text-[.9vw] ` }> MORE ABOUT US</Link>
 					</div>
 				</div>
 
 			</section>
 
 			{/* Third section */ }
-			<section className="bg-[#FFFFFF]  px-[3.5vw] pt-[6.5vw] pb-[8vw]">
+			<section className="bg-[#FFFFFF]  px-[2.5vw] pt-[6.5vw] pb-[8vw]">
 				<div className="relative  flex">
 					<div className="relative">
-						<div className="bg-[#222222] w-[.30vw] h-[.30vw] left-0 -translate-x-[.85vw] translate-y-[.45vw] top-0 rounded-full"></div>
-						<p className={ `${geist.className} font-light text-[1vw] text-[#222222] leading-[1]` }>Introduction</p>
+						<div className="bg-[#222222] w-[.30vw] h-[.30vw] left-0  translate-y-[.45vw] top-0 rounded-full"></div>
+						<p className={ `${geist.className} font-light text-[1vw] text-[#222222] leading-[1] ml-[1vw]` }>Introduction</p>
 					</div>
 					<p className={ `${geist.className} font-medium text-[5.6vw]  text-primaryBlackColor ml-[25vw] leading-[1] -tracking-[.45vw]` }>Property Highlights</p>
+				</div>
+
+				<div className="flex mt-[4vw]">
+					<div className="w-[66%]">
+						<Image src="/assets/images/home/property1.png" priority={ true } width={ 0 } height={ 0 } sizes="100vw" className="w-full " alt="property" />
+					</div>
+					<div className="w-[34%]">
+
+					</div>
 				</div>
 			</section>
 		</div>
